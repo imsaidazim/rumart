@@ -15,6 +15,26 @@ body {
 .clearfix{
     clear: both;
 }
+.main-web{
+    max-height: 100px;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+	background-color: #08182e; 
+	position: sticky;
+    top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 1;
+}
+.main-web__link{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #007fe8;
+    border-radius: 15px;
+    color: wheat;
+    cursor: pointer;   
+}
 header{
     height: 1080px;
     background-image: url("./images/nav-bg.png");
